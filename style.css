@@ -1,0 +1,122 @@
+h1{
+    font-family:'Courier New';
+    font-size: 50px;
+    text-align: center;
+    color: rgb(255, 241, 112);
+}
+
+h2 {
+    font-family:'Courier New';
+    font-size: 40px;
+    text-align: center;
+    color: rgb(255, 241, 112);
+}
+.imgtxt {  font-family:'Times New Roman', Times, serif;
+    font-size: 26px;
+    text-align: left;
+    color: rgb(37, 248, 0);
+
+}
+
+
+body{
+    background-color: rgb(79, 107, 47);
+}
+
+li {
+    list-style-position:inside ;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace ;
+    color: rgb(255, 241, 112);
+    text-align: center;
+
+}
+ 
+
+ 
+
+
+.heading{ 
+    color: rgb(253, 177, 0);
+    font-size: 30px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+} 
+
+.image{
+    display: block;
+    width: 100%;
+  height: auto;
+}
+
+.words{
+    color: rgb(255, 241, 112);
+    font-size: 40px;
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    text-align: center;
+    vertical-align: middle;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+  }
+  
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+  
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container2 {
+ display: grid;
+ align-items: center; 
+ grid-template-columns: 1fr 1fr 1fr;
+ column-gap: 5px;
+}
+
+img {
+  max-width: 100%;
+  max-height:100%;
+}
+
+.text2 {
+  font-size: 70px;
+}
+
+.container3 {
+            align-items: center; /* Center vertically */
+			display: flex; /* Use flexbox */
+			flex-wrap: wrap; /* Wrap to new line if needed */
+		}
+        
+.box {
+	width: 50%; /* Make each box half the width */
+	box-sizing: border-box; /* Include padding and border in width */
+	padding: 10px; /* Add some space inside the box */
+	//border: 1px solid black; /* Add border for visualization */
+		}
